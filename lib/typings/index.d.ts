@@ -2,7 +2,7 @@
 export interface ThumbnailProvider {
     getThumbUrl(id: string, format: string): Promise<string | null>;
 }
-export declare type ThumbnailSize = {
+export type ThumbnailSize = {
     width: number;
     height: number;
     crop: boolean;
